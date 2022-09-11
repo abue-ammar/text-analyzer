@@ -67,8 +67,8 @@ export default function details() {
           </ul>
         </div>
       </div>
-      <div className=" block flex items-center justify-center hover:text-green-500 font-bold text-base md:text-xl">
-        <p className="underline">
+      <div className="flex items-center justify-center hover:text-green-500 font-bold text-base md:text-xl">
+        <p className="border-b-2 border-green-500">
           <a
             href="https://github.com/abdarker/text-analyzer"
             target="_blank"
