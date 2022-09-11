@@ -1,0 +1,43 @@
+{
+  "short_name": "Text Analyzer",
+  "name": "Text Analyzer",
+  "description": "Text analyzer is a progressive web app where you can count words, charecters and convert text lowercase to uppercase, uppercase to lowercase as well as check word reading time",
+  "icons": [
+    {
+      "src": "maskable.png",
+      "sizes": "163x163",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "logo384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#00d49f",
+  "background_color": "#ffffff"
+}
