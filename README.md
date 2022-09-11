@@ -1,3 +1,6 @@
+### Live Preview
+Preview App Link [Text Analyzer](https://text-analyzer-pwa.netlify.app/)
+
 ### How To Use
 
 ```
