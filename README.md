@@ -1,7 +1,7 @@
 ### How To Use
 
 ```
-git clone
+git clone https://github.com/abdarker/text-analyzer
 cd text-analyzer
 npm install
 npm run start
