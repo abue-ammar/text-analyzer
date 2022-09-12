@@ -8,7 +8,7 @@ export default function Alert(props) {
       >
         <div className="flex items-center justify-center w-10 md:w-12 ">
           <svg
-            className="w-6 h-6 text-green-400"
+            className="w-6 h-6 text-green-500"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -26,7 +26,7 @@ export default function Alert(props) {
 
         <div className="pb-1.5 px-1 md:py-2 -mx-3">
           <div className="mx-3">
-            <span className="font-semibold text-green-400 text-sm md:text-base">
+            <span className="font-semibold text-green-500 text-sm md:text-base">
               {props.alert.type}
             </span>
             <p className="text-xs md:text-sm text-gray-600">
