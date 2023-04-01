@@ -140,12 +140,12 @@ export default function Home(props) {
             ></textarea>
           </div>
           <div className="flex flex-wrap justify-between items-center gap-y-3 lg:gap-y-0 p-3 md:py-4 border-t">
-            <div className="inline-flex rounded-md shadow-sm" role="group">
+            <div className="inline-flex rounded-2xl shadow-sm" role="group">
               <button
                 disabled={text.length === 0}
                 onClick={handleTitleCase}
                 type="button"
-                className="py-1 px-2 text-xs md:py-2 md:px-4 md:text-sm font-medium text-green-500 bg-transparent rounded-l-lg border border-green-500 hover:bg-green-500 hover:text-white focus:z-10 focus:bg-green-500 focus:text-white"
+                className="py-1 px-2 text-xs md:py-2 md:px-4 md:text-sm font-medium text-green-500 bg-transparent rounded-l-2xl border border-green-500 hover:bg-green-500 hover:text-white focus:z-10 focus:bg-green-500 focus:text-white"
               >
                 Title Case
               </button>
@@ -177,7 +177,7 @@ export default function Home(props) {
                 disabled={text.length === 0}
                 onClick={handleReverse}
                 type="button"
-                className="py-1 px-2 text-xs md:py-2 md:px-4 md:text-sm font-medium text-green-500 bg-transparent rounded-r-md border border-green-500 hover:bg-green-500 hover:text-white focus:z-10 focus:bg-green-500 focus:text-white"
+                className="py-1 px-2 text-xs md:py-2 md:px-4 md:text-sm font-medium text-green-500 bg-transparent rounded-r-2xl border border-green-500 hover:bg-green-500 hover:text-white focus:z-10 focus:bg-green-500 focus:text-white"
               >
                 Reverse
               </button>
@@ -189,7 +189,7 @@ export default function Home(props) {
                 onClick={clearFormData}
                 title="Clear"
                 type="button"
-                className="inline-flex items-center gap-x-2 text-xs md:text-sm py-1 px-2 md:py-2 md:px-4 text-pink-500 border border-pink-500 rounded-md hover:bg-pink-500 hover:text-white active:bg-pink-600 focus:outline-none focus:ring cursor-pointer"
+                className="inline-flex items-center gap-x-2 text-xs md:text-sm py-1 px-2 md:py-2 md:px-4 text-pink-500 border border-pink-500 rounded-2xl hover:bg-pink-500 hover:text-white active:bg-pink-600 focus:outline-none focus:ring cursor-pointer"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -211,7 +211,7 @@ export default function Home(props) {
                 onClick={handleCopyToClipboard}
                 title="Copy to Clipboard"
                 type="button"
-                className="inline-flex items-center gap-x-2 text-xs md:text-sm py-1 px-2 md:py-2 md:px-4 text-green-500 border border-green-500 rounded-md hover:bg-green-500 hover:text-white active:bg-green-500 focus:outline-none focus:ring cursor-pointer"
+                className="inline-flex items-center gap-x-2 text-xs md:text-sm py-1 px-2 md:py-2 md:px-4 text-green-500 border border-green-500 rounded-2xl hover:bg-green-500 hover:text-white active:bg-green-500 focus:outline-none focus:ring cursor-pointer"
               >
                 <span className="font-medium">Copy</span>
                 <svg
