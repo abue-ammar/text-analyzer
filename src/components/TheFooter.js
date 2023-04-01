@@ -7,7 +7,7 @@ export default function TheFooter() {
         <div>
           &copy; Copyright 2022 -
           <a
-            className=" hover:underline hover:text-blue-500 pl-1"
+            className=" hover:underline hover:text-green-500 pl-1"
             href="https://abdarker.github.io"
             target="_blank"
             rel="noreferrer"

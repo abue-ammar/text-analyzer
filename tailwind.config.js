@@ -15,7 +15,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Mochiy Pop One", "sans-serif"],
+        sans: ["Be Vietnam Pro", "system-ui", "sans"],
       },
       fontSize: {
         xs: "0.663rem",

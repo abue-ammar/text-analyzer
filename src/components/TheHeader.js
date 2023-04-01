@@ -8,7 +8,7 @@ export default function TheHeader(props) {
   return (
     <header className={`bg-white ${props.className}`}>
       <nav className="container">
-        <div className="p-5 relative">
+        <div className="p-4 relative">
           <NavLink
             className="block text-2xl font-bold text-center text-gray-800 lg:text-3xl hover:text-green-500 "
             to="/"

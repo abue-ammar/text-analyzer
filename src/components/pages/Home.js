@@ -107,7 +107,7 @@ export default function Home(props) {
   }
 
   return (
-    <div className="pt-6 pb-8 lg:pt-10-pb-15 container">
+    <div className="pt-4 pb-8 lg:pt-10-pb-15 container">
       <div className="py-2 flex items-center gap-x-6 md:gap-x-4 text-gray-500">
         <div className="md:text-xl font-semibold ">Reading Time :</div>
         {text.length < 1 ? (
@@ -127,8 +127,8 @@ export default function Home(props) {
         )}
       </div>
       <form>
-        <div className="mb-2 w-full bg-gray-50 rounded-lg border border-gray-200">
-          <div className="py-3 px-5 bg-white rounded-t-lg">
+        <div className="mb-2 w-full bg-gray-50 rounded-2xl border border-gray-200">
+          <div className="py-3 px-5 bg-white rounded-t-2xl">
             <textarea
               value={text}
               onChange={handleOnChange}
@@ -189,7 +189,7 @@ export default function Home(props) {
                 onClick={clearFormData}
                 title="Clear"
                 type="button"
-                className="inline-flex items-center gap-x-2 text-xs md:text-sm py-1 px-2 md:py-2 md:px-4 text-pink-500 border border-pink-500 rounded hover:bg-pink-500 hover:text-white active:bg-pink-600 focus:outline-none focus:ring cursor-pointer"
+                className="inline-flex items-center gap-x-2 text-xs md:text-sm py-1 px-2 md:py-2 md:px-4 text-pink-500 border border-pink-500 rounded-md hover:bg-pink-500 hover:text-white active:bg-pink-600 focus:outline-none focus:ring cursor-pointer"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -211,7 +211,7 @@ export default function Home(props) {
                 onClick={handleCopyToClipboard}
                 title="Copy to Clipboard"
                 type="button"
-                className="inline-flex items-center gap-x-2 text-xs md:text-sm py-1 px-2 md:py-2 md:px-4 text-green-500 border border-green-500 rounded hover:bg-green-500 hover:text-white active:bg-blue-600 focus:outline-none focus:ring cursor-pointer"
+                className="inline-flex items-center gap-x-2 text-xs md:text-sm py-1 px-2 md:py-2 md:px-4 text-green-500 border border-green-500 rounded-md hover:bg-green-500 hover:text-white active:bg-green-500 focus:outline-none focus:ring cursor-pointer"
               >
                 <span className="font-medium">Copy</span>
                 <svg

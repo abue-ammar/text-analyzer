@@ -15,7 +15,7 @@ export default function details() {
           <ul className="mb-8 space-y-4 ml-12 text-left text-gray-500 dark:text-gray-400">
             <li className="flex items-center space-x-3">
               <svg
-                className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                className="flex-shrink-0 w-4 h-4 text-green-500 dark:text-green-500"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 20 20"
@@ -28,11 +28,11 @@ export default function details() {
                   d="M9 5l7 7-7 7"
                 ></path>
               </svg>
-              <span>ReactJS</span>
+              <span className="-mb-1">ReactJS</span>
             </li>
             <li className="flex items-center space-x-3">
               <svg
-                className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                className="flex-shrink-0 w-4 h-4 text-green-500 dark:text-green-500"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 20 20"
@@ -45,11 +45,11 @@ export default function details() {
                   d="M9 5l7 7-7 7"
                 ></path>
               </svg>
-              <span>Tailwind CSS</span>
+              <span className="-mb-1">Tailwind CSS</span>
             </li>
-            <li className="flex items-center space-x-3">
+            <li className="flex items-center justify-center space-x-3">
               <svg
-                className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                className="flex-shrink-0 w-4 h-4 text-green-500 dark:text-green-500"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 20 20"
@@ -62,7 +62,7 @@ export default function details() {
                   d="M9 5l7 7-7 7"
                 ></path>
               </svg>
-              <span>Progressive Web App</span>
+              <span className="-mb-1">Progressive Web App</span>
             </li>
           </ul>
         </div>
