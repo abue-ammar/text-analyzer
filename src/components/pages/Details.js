@@ -70,7 +70,7 @@ export default function details() {
       <div className="flex items-center justify-center hover:text-green-500 font-bold text-base md:text-xl">
         <p className="border-b-2 border-green-500">
           <a
-            href="https://github.com/abdarker/text-analyzer"
+            href="https://github.com/abue-ammar/text-analyzer"
             target="_blank"
             rel="noreferrer"
           >

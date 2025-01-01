@@ -4,7 +4,7 @@ Preview App Link [Text Analyzer](https://text-analyzer-pwa.netlify.app/)
 ### How To Use
 
 ```
-git clone https://github.com/abdarker/text-analyzer
+git clone https://github.com/abue-ammar/text-analyzer
 cd text-analyzer
 npm install
 npm run start

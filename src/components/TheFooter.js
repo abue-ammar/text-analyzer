@@ -8,7 +8,7 @@ export default function TheFooter() {
           &copy; Copyright 2022 -
           <a
             className=" hover:underline hover:text-green-500 pl-1"
-            href="https://abdarker.github.io"
+            href="https://abue-ammar.github.io"
             target="_blank"
             rel="noreferrer"
           >
